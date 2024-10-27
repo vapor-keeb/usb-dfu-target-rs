@@ -1,5 +1,8 @@
 [package]
 name = "usb-dfu-target"
+authors = ['Codetector <codetector@codetector.org>', 'Dummyc0m <xieyuanchu@gmail.com>']
+description = "portable implementation of USB DFU 1.1"
+license = "MIT"
 version = "0.1.0"
 edition = "2021"
 
