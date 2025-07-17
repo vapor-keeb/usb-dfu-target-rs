@@ -3,12 +3,12 @@ name = "usb-dfu-target"
 authors = ['Codetector <codetector@codetector.org>', 'Dummyc0m <xieyuanchu@gmail.com>']
 description = "portable implementation of USB DFU 1.1"
 license = "MIT"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 
 [dependencies]
 bitflags = "1"
-defmt = { version = "0.3.0", optional = true }
+defmt = { version = "1.0.0", optional = true }
 
 [features]
 defmt = ["dep:defmt"]
